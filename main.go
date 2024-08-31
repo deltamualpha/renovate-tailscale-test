@@ -1,9 +1,7 @@
 package main
 
-import (
-	"tailscale.com/tsnet"
-)
+import subdomainmodule "sub.git.yetaga.in"
 
 func main() {
-	_ = &tsnet.Server{}
+	subdomainmodule.Hello("World")
 }
